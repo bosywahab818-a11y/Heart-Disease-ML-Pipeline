@@ -1,0 +1,22 @@
+Heart Disease ML Project - Final Evaluation
+=======================================================
+
+              Model  Accuracy  Precision   Recall  F1-Score  ROC-AUC           Dataset     Type  Rank
+Logistic Regression  0.885246   0.838710 0.928571  0.881356 0.966450 Original Features Baseline     1
+Logistic Regression  0.885246   0.838710 0.928571  0.881356 0.966450               NaN    Tuned     2
+                SVM  0.885246   0.838710 0.928571  0.881356 0.964286 Original Features Baseline     3
+      Random Forest  0.852459   0.806452 0.892857  0.847458 0.953463               NaN    Tuned     4
+      Random Forest  0.868852   0.812500 0.928571  0.866667 0.944264 Original Features Baseline     5
+                SVM  0.836066   0.800000 0.857143  0.827586 0.942641               NaN    Tuned     6
+      Decision Tree  0.868852   0.857143 0.857143  0.857143 0.871212               NaN    Tuned     7
+      Decision Tree  0.737705   0.676471 0.821429  0.741935 0.744048 Original Features Baseline     8
+
+Best Model
+=======================================================
+Model: Logistic Regression
+Type: Baseline
+Accuracy: 0.8852
+Precision: 0.8387
+Recall: 0.9286
+F1-Score: 0.8814
+ROC-AUC: 0.9665
